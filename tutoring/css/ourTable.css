@@ -1,0 +1,37 @@
+.classBG {
+   /* background: rgb(79,80,176,0.9); */
+
+ background:#a7a8d7;
+}
+
+table {
+    border-spacing: 0px;
+
+}
+td {
+    /* border-left: 1px solid rgb(214, 214, 214); */
+    color:black;
+    transition: 400ms;
+}
+.expand {
+    /*   background: red; */
+      height: 100px;
+      width: 100px;
+      transition: 400ms;
+    }
+    
+    .popup {
+        width: 300px;
+        background: gray;
+        padding: 25px;
+        position: fixed;
+        top: 300px;
+        right: 5px;
+        transform-origin: 50% 100%;
+        transition: 250ms;
+        transform: scaleY(0);
+      }
+      .popIt {
+        transform: scaleY(1);
+        transition: 250ms;
+      }
